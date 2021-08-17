@@ -91,6 +91,10 @@ kbd {
   margin-right: 0.75rem;
   border-radius: 0.25rem;
 }
+a {
+  color: #db5f12;
+  text-decoration: none;
+}
 .swal-title {
   font-size: 1.5rem;
   font-weight: bold;
