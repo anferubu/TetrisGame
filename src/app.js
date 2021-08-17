@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
   ctx.lineWidth = 0.1;
 
 
+  game.showControls(btnStart, btnPause);
   mainLoop();
 
   /**
