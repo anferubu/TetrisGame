@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Felipe Buriticá">
+    <meta name="description" content="Tetris game">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tetris game</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.png">
+    <link rel="stylesheet" href="./src/style.css">
+    <!-- SweetAlert source -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- FontAwesome source -->
+    <script src="https://kit.fontawesome.com/5a8b73f302.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <main>
+      <div class="container">
+        <h1 id="title">tetris game</h1>
+        <canvas id="canvas"></canvas>
+        <div id="score">score: <span>0</span></div>
+
+        <div class="btn-container">
+          <button id="btnStart" class="btn btn-primary" hidden>
+            <i class="fas fa-play"></i></button>
+          <button id="btnPause" class="btn btn-primary">
+            <i class="fas fa-pause"></i></button>
+          <button id="btnLeft" class="btn btn-primary">
+            <i class="fas fa-arrow-left"></i></button>
+          <button id="btnDown" class="btn btn-primary">
+            <i class="fas fa-arrow-down"></i></button>
+          <button id="btnRight" class="btn btn-primary">
+            <i class="fas fa-arrow-right"></i></button>
+          <button id="btnRotate" class="btn btn-primary">
+            <i class="fas fa-undo"></i></button>
+          <button id="btnReset" class="btn btn-secondary">Reset</button>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>
