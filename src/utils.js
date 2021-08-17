@@ -71,6 +71,9 @@ class Utils {
               <li class="list-group-item"><kbd>↑</kbd> Rotar</li>
               <li class="list-group-item"><kbd>←</kbd> <kbd>↓</kbd> <kbd>→</kbd> Mover figuras</li>
               <li class="list-group-item">También podemos utilizar los botones para jugar en el móvil</li>
+              <li class="list-group-item">
+                Puedes ver aquí <a href="https://github.com/ferudasel/TetrisGame" target="_blank">el código fuente</a>
+              </li>
             </ul>
           `
         }
